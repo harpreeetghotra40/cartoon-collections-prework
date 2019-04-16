@@ -5,6 +5,7 @@ end
 def summon_captain_planet(planeteer)# code an argument here
   newArr = []
   planeteer.collect{|name| newArr << name.capitalize}
+  return newArr
 end
 
 def long_planeteer_calls# code an argument here
