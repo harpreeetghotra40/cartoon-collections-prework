@@ -3,7 +3,7 @@ def roll_call_dwarves(names)# code an argument here
 end
 
 def summon_captain_planet(planeteer)# code an argument here
-  planeteer.collect{|name| puts "#{name.capitalize}"}
+  planeteer.collect{|name| name.capitalize}
    Your code here
 end
 
