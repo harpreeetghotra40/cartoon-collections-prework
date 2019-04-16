@@ -3,7 +3,8 @@ def roll_call_dwarves(names)# code an argument here
 end
 
 def summon_captain_planet(planeteer)# code an argument here
-  planeteer.collect{|name| name.capitalize}
+  newArr = []
+  planeteer.collect{|name| newArr << name.capitalize}
 end
 
 def long_planeteer_calls# code an argument here
